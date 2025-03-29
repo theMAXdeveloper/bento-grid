@@ -1,0 +1,79 @@
+/* --- Base Styles --- */
+
+html {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {}
+
+section {}
+
+.content-wrapper {}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+img {}
+
+p {}
+
+.mustard {}
+
+.purple {}
+
+.white {}
+
+/* --- Box 1 --- */
+
+.reviews {}
+
+/* --- Box 2 --- */
+
+.social-media {}
+
+/* --- Box 3 --- */
+
+.posting-schedule {}
+
+/* --- Box 4 --- */
+
+.post-timing {}
+
+/* --- Box 5 --- */
+
+.grow {}
+
+/* --- Box 6 --- */
+
+.audience-growth {}
+
+/* --- Box 7 --- */
+
+.create {}
+
+/* --- Box 8 --- */
+
+.write-ai {}
+
+
+
+/* --- Attribuiton --- */
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
