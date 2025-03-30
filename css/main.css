@@ -2,7 +2,6 @@
 
 html {
   box-sizing: border-box;
-  font-size: 1rem;
 }
 
 *,
@@ -11,60 +10,159 @@ html {
   box-sizing: inherit;
 }
 
-body {}
+body {
+	background-color: #f8f8ff;
+	font-family: "DM Sans", sans-serif;
+}
 
-section {}
+section {
+	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;	
+}
 
-.content-wrapper {}
+.content-wrapper {
+	width: 90%;
+	display: flex;
+	flex-flow: column wrap;
+	text-align: center;
+	margin: 1em 0;
+	padding: 1em;
+	border-radius: 0.5em;
+}
 
-h1 {}
+h1 {
+	font-size: 2.5em;
+	width: 70%;
+	align-self: center;
+	font-weight: 500;
+	margin: .4em 0;
+}
 
 h2 {}
 
-h3 {}
+h3 {
+	text-align: left;
+	margin: 0;
+	font-weight: 600;
+	line-height: 1em;
+	font-size: 1.3em;
 
-img {}
+}
 
-p {}
+img {
+	width: 50%;
+	align-self: center;
+}
 
-.mustard {}
+p {
+	width: 70%;
+	font-size: 1.125em;
+	align-self: center;
+}
 
-.purple {}
+.group-1 {
+	background-color: hsl(256, 67%, 59%);
+	color: white;
+}
 
-.white {}
+.group-2 {
+	background-color: white;
+}
+
+.group-3 {
+	background-color: hsl(39, 100%, 71%);
+}
 
 /* --- Box 1 --- */
 
 .reviews {}
 
+.reviews span {
+	color: gold;
+}
+
+.reviews img {
+	width: 60%;
+}
+
 /* --- Box 2 --- */
 
 .social-media {}
 
+.social-media img {
+	width: 100%;
+}
+
+.social-media h3 {
+	margin: 1em 0 0;
+}
+
 /* --- Box 3 --- */
 
-.posting-schedule {}
+.posting-schedule .content-wrapper{
+	padding-bottom: 0;
+}
+
+.posting-schedule h3 {
+	margin: 0 0 1em;
+	width: 80%;
+}
+
+.posting-schedule img {
+	align-self: flex-start;
+	width: 60%;
+}
 
 /* --- Box 4 --- */
 
-.post-timing {}
+.post-timing .content-wrapper {
+	background-color: hsl(254, 88%, 90%);
+}
+
+.post-timing h3 {
+	text-align: center;
+}
+
+.post-timing img {}
 
 /* --- Box 5 --- */
 
 .grow {}
 
+.grow img {}
+
 /* --- Box 6 --- */
 
 .audience-growth {}
 
+.audience-growth h1 {
+	align-self: flex-start;
+	text-align: left;
+	margin: 0;
+}
+
+.audience-growth p {
+	align-self: flex-start;
+	text-align: left;
+}
+
+.audience-growth img {}
+
 /* --- Box 7 --- */
 
-.create {}
+.create .content-wrapper {
+	background-color: hsl(31, 66%, 93%);
+}
+
+.create img {}
 
 /* --- Box 8 --- */
 
 .write-ai {}
 
+.write-ai img {}
 
 
 /* --- Attribuiton --- */
