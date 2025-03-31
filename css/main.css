@@ -16,21 +16,26 @@ body {
 	font-family: "DM Sans", sans-serif;
 }
 
-section {
-	width: 100%;
+main {
 	display: flex;
 	flex-flow: column wrap;
-	align-items: center;	
+	align-content: center;
+}
+
+section {
+	width: 375px;
+	display: flex;
+	justify-content: center;
 }
 
 .content-wrapper {
-	width: 90%;
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
+	justify-content: center;
 	text-align: center;
 	margin: 1em 0;
 	padding: 1em;
-	border-radius: 0.5em;
+	border-radius: 0.9em;
 }
 
 h1 {
@@ -47,16 +52,16 @@ h2 {
 	text-align: left;
 	line-height: 1em;
 	font-size: 1.75em;
-	font-weight: 500;
-	margin-top: 0.4em;
+	font-weight: 600;
+	margin-top: 0;
 }
 
 h3 {
+	justify-self: flex-start;
 	text-align: left;
-	margin: 0;
 	font-weight: 600;
 	line-height: 1em;
-	font-size: 1.3em;
+	font-size: 1.5em;
 
 }
 
@@ -70,7 +75,7 @@ p {
 	font-size: 1.125em;
 	align-self: center;
 	margin: 0.5em 0 1em;
-	line-height: 1em;
+	line-height: 1.1em;
 }
 
 .group-1 {
@@ -98,6 +103,10 @@ p {
 
 /* --- Box 2 --- */
 
+.box-2 .content-wrapper {
+	justify-content: flex-start;
+}
+
 .box-2 img {
 	width: 100%;
 }
@@ -111,16 +120,18 @@ p {
 
 .box-3 .content-wrapper{
 	padding-bottom: 0;
+	justify-content: flex-start;
 }
 
 .box-3 h3 {
-	margin: 0 0 1em;
+	margin: 0 0 0.1em;
 	width: 80%;
 }
 
 .box-3 img {
-	align-self: flex-start;
-	width: 60%;
+	width: 65%;
+	object-fit: cover;
+	object-position: 0 1.3em;
 }
 
 /* --- Box 4 --- */
@@ -139,7 +150,7 @@ p {
 }
 
 .box-4 p {
-	width: 90%;
+	width: 85%;
 	font-size: 1.1em;
 	font-weight: 450;
 	margin: 1.25em 0 1em;
@@ -152,13 +163,17 @@ p {
 }
 
 .box-5 h2 {
-	width: 75%;
+	width: 65%;
 	margin: 1.5em 0 0;
 	text-align: center;
 	align-self: center;
 }
 
 /* --- Box 6 --- */
+
+.box-6 .content-wrapper {
+	justify-content: flex-start;
+}
 
 .box-6 h1 {
 	align-self: flex-start;
@@ -172,7 +187,6 @@ p {
 }
 
 .box-6 img {
-	align-self: flex-start;
 	width: 55%;
 }
 
@@ -180,7 +194,8 @@ p {
 
 .box-7 .content-wrapper {
 	background-color: hsl(31, 66%, 93%);
-	padding: 1em 1.5em;
+	padding: 1.5em 1.7em;
+	justify-content: flex-start;
 }
 
 .box-7 em {
@@ -188,19 +203,23 @@ p {
 }
 
 .box-7 img {
-	align-self: flex-start;
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5em;
+	width: 60%;
 }
 
 /* --- Box 8 --- */
+
+.box-8 .content-wrapper {
+	justify-content: flex-start;
+	padding-left: 1.3em;
+}
 
 .box-8 h2 {
 	width: 90%;
 }
 
 .box-8 img {
-	align-self: flex-start;
-	width: 75%;
+	width: 65%;
 }
 
 
