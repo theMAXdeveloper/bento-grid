@@ -24,10 +24,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/theMAXdeveloper/bento-grid)
+- Solution URL: [https://github.com/theMAXdeveloper/bento-grid]
 
-- Live Site URL: [Add live site URL here](https://themaxdeveloper.github.io/bento-grid/)
-
+- Live Site URL: [https://themaxdeveloper.github.io/bento-grid/]
 ## My process
 
 ### Built with
